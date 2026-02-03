@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "boston_cookie_cutter"
+version = "0.0.1"
+description = "First testing of version control workflows with cookie cutter DS framework"
+authors = [
+  { name = "James Schorr" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["boston_cookie_cutter"]
+include = ["pyproject.toml", "boston_cookie_cutter/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["boston_cookie_cutter"]
+force-sort-within-sections = true
+
