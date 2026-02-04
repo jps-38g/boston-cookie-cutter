@@ -1,0 +1,3 @@
+The plots.py program is stored in the boston_cookie_cutter/modeling folder.
+
+It creates a plot called arealand_by_name.png which is stored in the boston_cookie_cutter/reports/figures folder.

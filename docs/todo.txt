@@ -1,0 +1,7 @@
+Future to dos:
+
+- Set up process for ongoing raw data downloads and backups of updated (most recent available year or month) Boston housing data to the Google Cloud Storage Buckets
+
+- Expand data cleansing steps to include more variables than simply town, year, and area for analysis
+
+- Create a variety of plots to tell a more comprehensive story about trends and relationships in the Boston housing data that are refreshed automatically as the raw and processed data are updated
